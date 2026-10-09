@@ -26,7 +26,7 @@ using up to `x` available weeks; observed zero sales remain in the average.
 Run from the repository root with the Python environment described in the top-level README:
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 python code_GAOJiashen/evaluation/02_select_x_wrmsse.py
 ```
 
@@ -50,7 +50,7 @@ Outputs are written to `outputs/evaluation/x_selection/`:
 After `02_select_x_wrmsse.py` has completed, run:
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 python code_GAOJiashen/evaluation/03_visualize_x_selection.py
 ```
 
@@ -101,7 +101,7 @@ model and forecast are frozen.
 Run the full selection from the repository root:
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 python code_GAOJiashen/evaluation/04_select_rho_wrmsse.py
 ```
 
@@ -109,7 +109,7 @@ If the four rolling folds have already completed, resume from their saved
 validation scores and refit only the final selected partition:
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 python code_GAOJiashen/evaluation/04_select_rho_wrmsse.py --resume-selection
 ```
 
@@ -185,7 +185,7 @@ Running the script writes to `outputs/evaluation/snaive/`:
 From the repository root, run:
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 python code_GAOJiashen/evaluation/01_snaive_wrmsse.py
 ```
 
@@ -227,7 +227,7 @@ for forecasting remains the frozen rho baseline.
 Run from the repository root:
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 python code_GAOJiashen/evaluation/05_grouped_trend_wrmsse.py
 ```
 
@@ -280,7 +280,7 @@ rate is compared with the cohort's overall rate.
 From the repository root, run:
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 python code_GAOJiashen/evaluation/07_sparse_zero_diagnostic.py
 ```
 
@@ -344,6 +344,6 @@ Gram coefficients rather than complete leaf forecasts to bound memory use.
 From the repository root:
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 python code_GAOJiashen/evaluation/08_borrow_information_wrmsse.py
 ```

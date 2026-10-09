@@ -7,7 +7,7 @@
 先进入项目目录：
 
 ```bash
-cd <repository-root>
+cd MSDM5054-M5-GAOJiashen
 ```
 
 1. 原始数据审计：检查销量、日期、价格的结构和异常值。
